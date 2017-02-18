@@ -53,8 +53,8 @@ def make_level_from_json(json_data):
     cc_level.level_number = json_data["level_number"]
     cc_level.time = json_data["time"]
     cc_level.num_chips = json_data["num_chips"]
-    cc_level.upper_level = json_data["upper_level"]
-    cc_level.lower_level = json_data["lower_level"]
+    cc_level.upper_layer = json_data["upper_layer"]
+    cc_level.lower_layer = json_data["lower_layer"]
     cc_level.optional_fields = make_optional_fields_from_json(json_data["optional_fields"])
     return cc_level
 
